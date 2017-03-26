@@ -2,7 +2,8 @@ var mongoose = require('mongoose');
 var chalk = require('chalk');
 
 
-var connStr = 'mongodb://admin:Dknight!123@ds143000.mlab.com:43000/whatsyourstory';
+var connStr = 'mongodb://localhost/test'
+//var connStr = 'mongodb://admin:Dknight!123@ds143000.mlab.com:43000/whatsyourstory';
 
 mongoose.connect(connStr);
 
